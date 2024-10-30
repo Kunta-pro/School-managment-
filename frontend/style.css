@@ -1,7 +1,8 @@
-/* frontend/style.css */
-
 body {
-    font-family: Arial, sans-serif;
+    background-color: blue; /* Set the background color to blue */
+    font-family: Arial, sans-serif; /* Ensure the font style is Arial */
+    color: white; /* Set text color to white */
+    font-size: 14px; /* Reduce font size */
 }
 
 nav {
@@ -19,7 +20,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: white; /* Link text color */
     text-decoration: none;
 }
 
