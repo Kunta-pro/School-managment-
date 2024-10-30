@@ -1,8 +1,8 @@
 // frontend/script.js
 
 // Initialize Supabase
-const supabaseUrl = 'https://your_supabase_url.supabase.co'; // Replace with your Supabase URL
-const supabaseKey = 'your_supabase_anon_key'; // Replace with your Supabase Anon Key
+const supabaseUrl = 'https://mokqpjrqgjlekuhybclo.supabase.co'; // Replace with your Supabase URL
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1va3FwanJxZ2psZWt1aHliY2xvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzAzMDYxOTAsImV4cCI6MjA0NTg4MjE5MH0.ziVCEj_ZxOLg49_srT-BWPlOhzm70ZMTZc64l-n5LSU'; // Replace with your Supabase Anon Key
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 function toggleSection(section) {
