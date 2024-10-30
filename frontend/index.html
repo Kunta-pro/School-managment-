@@ -1,5 +1,3 @@
-<!-- frontend/index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,15 +10,13 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#" onclick="toggleSection('about')">About Us</a></li>
+            <li><a href="https://kunta-pro.github.io/Student-registration-form-/frontend/index.html" target="_blank">Register Student</a></li>
             <li><a href="#" onclick="toggleSection('uploadMarks')">Upload Marks</a></li>
-            <li><a href="#" onclick="toggleSection('registerStudent')">Register Student</a></li>
             <li><a href="#" onclick="toggleSection('search')">Search Student</a></li>
             <li><a href="#" onclick="toggleSection('report')">Generate Report</a></li>
         </ul>
     </nav>
 
-    <div id="about" class="section">About Us content here.</div>
     <div id="uploadMarks" class="section hidden">
         <h2>Upload Marks</h2>
         <form id="uploadMarksForm">
@@ -29,22 +25,14 @@
             <button type="submit">Upload</button>
         </form>
     </div>
-    <div id="registerStudent" class="section hidden">
-        <h2>Student Bio Data Registration</h2>
-        <form id="registrationForm">
-            <input type="text" id="studentName" placeholder="Student Name" required>
-            <input type="text" id="parentName" placeholder="Parent Name" required>
-            <input type="text" id="academicInfo" placeholder="Academic Info" required>
-            <input type="text" id="healthInfo" placeholder="Health Info" required>
-            <button type="submit">Register</button>
-        </form>
-    </div>
+
     <div id="search" class="section hidden">
         <h2>Search Student</h2>
         <input type="text" id="searchInput" placeholder="Student Name">
         <button onclick="searchStudent()">Search</button>
         <div id="searchResults"></div>
     </div>
+
     <div id="report" class="section hidden">
         <h2>Generate Report</h2>
         <input type="text" id="reportStudentId" placeholder="Student ID" required>
