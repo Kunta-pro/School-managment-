@@ -1,33 +1,30 @@
 body {
-    background-color: blue; /* Set the background color to blue */
-    font-family: Arial, sans-serif; /* Ensure the font style is Arial */
-    color: white; /* Set text color to white */
-    font-size: 14px; /* Reduce font size */
+  font-family: Arial, sans-serif;
 }
 
-nav {
-    background-color: #333;
-    padding: 10px;
+#app {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
-nav ul {
-    list-style-type: none;
+form {
+  margin-bottom: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
 }
 
-nav ul li a {
-    color: white; /* Link text color */
-    text-decoration: none;
-}
-
-.section {
-    margin: 20px;
-}
-
-.hidden {
-    display: none;
+button {
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
